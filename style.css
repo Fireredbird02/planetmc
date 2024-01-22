@@ -34,7 +34,7 @@ html, body{
     color: darkred;
     font-weight: bold;
 }
-img {
+.img{
     display: block;
     margin-left: 80%;
     width: 2%;
