@@ -1,0 +1,36 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: darkred;
+}
+.gombok{
+    font-family: Arial;
+    position: absolute;
+    top: 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 18px;
+    text-align: center;
+    margin-left: 34%;
+}
+.gombok a{
+    text-decoration: none;
+    margin: 0 10px;
+    color: darkred;
+    font-weight: bold;
+}
+.regjel{
+    font-family: Arial;
+    position: absolute;
+    top: 0;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-top: 18px;
+    margin-left: 84%;
+}
+.regjel a{
+    text-decoration: none;
+    color: darkred;
+    font-weight: bold;
+}
