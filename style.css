@@ -2,41 +2,57 @@ html, body{
     height: 100%;
     margin: 0;
     padding: 0;
-    color: darkred;
+    background: linear-gradient(60deg, darkred, gray, green);
 }
-.gombok{
+.gombok1{
     font-family: Arial;
     position: absolute;
     top: 0;
     font-size: 16px;
     text-transform: uppercase;
-    margin-top: 18px;
+    margin-top: 10px;
     text-align: center;
-    margin-left: 30%;
+    margin-left: 38%;
+    border: 1px solid transparent;
+    padding: 5px 10px;
+    background-color: transparent;
 }
-.gombok a{
+.gombok1 a{
     text-decoration: none;
     margin: 0 10px;
-    color: darkred;
+    color: black;
     font-weight: bold;
 }
-.regjel{
+.gombok1:hover{
+    transition: 0.5s linear;
+    background-color: darkred;
+}
+.gombok2{
     font-family: Arial;
     position: absolute;
     top: 0;
-    font-size: 13px;
+    font-size: 16px;
     text-transform: uppercase;
-    margin-top: 18px;
-    margin-left: 84%;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 48%;
+    border: 1px solid transparent;
+    padding: 5px 10px;
+    background-color: transparent;
 }
-.regjel a{
+.gombok2 a{
     text-decoration: none;
-    color: darkred;
+    margin: 0 10px;
+    color: black;
     font-weight: bold;
+}
+.gombok2:hover{
+    transition: 0.5s linear;
+    background-color: darkred;
 }
 img{
     display: block;
-    margin-left: 80%;
+    margin-left: 57%;
     width: 2%;
     top: 0;
     margin-top: 10px;
